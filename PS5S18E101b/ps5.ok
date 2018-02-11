@@ -1,6 +1,6 @@
 {
   "name": "PS5 Notebook",
-  "endpoint": "cal/econ101b/sp18/PS5,
+  "endpoint": "cal/econ101b/sp18/PS5",
   "src": [
     "PS5.ipynb"
   ],

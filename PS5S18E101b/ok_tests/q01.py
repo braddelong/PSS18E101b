@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Sweden_surpasses, 1931)
+          >>> np.isclose(KoverY_50_splus, 4.129, atol=0.01) and np.isclose(KoverY_50_gplus, 3.528, atol=0.01) and np.isclose(KoverY_50_nplus, 3.528, atol=0.01)
           True
           """,
           'hidden': False,

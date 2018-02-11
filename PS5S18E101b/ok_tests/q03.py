@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> np.isclose(KY_when_s_doubles_pointfifteen, 2) 
+          >>> np.isclose(OPW_halfone, 31.6, atol=0.1) 
           True
           """,
           'hidden': False,
