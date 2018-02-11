@@ -38,7 +38,7 @@ test = {
         },
         {
           'code': r"""
-          >>>np.isclose(KoverY_50_alphathreequarters, 4.58, atol=0.1)
+          >>> np.isclose(KoverY_50_alphathreequarters, 4.58, atol=0.1)
           True
           """,
           'hidden': False,
