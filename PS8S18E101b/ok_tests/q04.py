@@ -1,20 +1,28 @@
 test = {
-  'name': 'Problem Set 5 q02',
+  'name': '',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> np.isclose(gdp_Jan_2000, 12359.1, atol=10) 
+          >>> np.isclose(c_y_1_year, 0.7269, atol=0.1) 
           True
           """,
           'hidden': False,
           'locked': False
         },
-       {
+        {
           'code': r"""
-          >>> np.isclose(gdp_Jan_2010, 14604.8, atol=10) 
+          >>> np.isclose(c_y_1_year_early_sample, 0.6577, atol=0.1) 
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> np.isclose(c_y_1_year_late_sample, 0.8593, atol=0.1) 
           True
           """,
           'hidden': False,

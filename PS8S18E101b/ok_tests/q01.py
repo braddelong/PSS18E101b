@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(quotientalpha2, 1.1, atol=0.1)
+          >>> np.isclose(cons_Jan_2000, 7988.5, atol=1)
           True
           """,
           'hidden': False,
@@ -16,25 +16,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(quotientalpha4, 1.4, atol=0.1)
-          True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> import numpy as np
-          >>> np.isclose(quotientalpha6, 2.0, atol=0.1)
-          True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> import numpy as np
-          >>> np.isclose(quotientalpha8, 6.6, atol=0.1)
+          >>> np.isclose(cons_Jan_2010, 9881.7, atol=1)
           True
           """,
           'hidden': False,

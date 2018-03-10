@@ -1,8 +1,8 @@
 {
-  "name": "PS7 Notebook",
+  "name": "PS8 Notebook",
   "endpoint": "cal/econ101b/sp18/PS8",
   "src": [
-    "PS7.ipynb"
+    "PS8.ipynb"
   ],
   "tests": {
       "ok_tests/q*.py": "ok_test"
