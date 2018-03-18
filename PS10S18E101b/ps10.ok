@@ -1,6 +1,6 @@
 {
-  "name": "PS9 Notebook",
-  "endpoint": "cal/econ101b/sp18/PS8",
+  "name": "PS10 Notebook",
+  "endpoint": "cal/econ101b/sp18/PS10",
   "src": [
     "PS9.ipynb"
   ],
