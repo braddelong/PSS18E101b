@@ -6,7 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> np.isclose(c_y_1_quarter, 0.6036, atol=0.1) 
+          >>> import numpy as np
+          >>> np.isclose(Delta_r_PS10taskF, +0.04, atol=0.01)
           True
           """,
           'hidden': False,
@@ -14,7 +15,8 @@ test = {
         },
         {
           'code': r"""
-          >>> np.isclose(c_y_1_quarter_early_sample, 0.5484, atol=0.1) 
+          >>> import numpy as np
+          >>> np.isclose(Delta_I_PS10taskF, -0.4, atol=0.01)
           True
           """,
           'hidden': False,
@@ -22,7 +24,44 @@ test = {
         },
         {
           'code': r"""
-          >>> np.isclose(c_y_1_quarter_late_sample, 0.7408, atol=0.1) 
+          >>> import numpy as np
+          >>> np.isclose(Delta_G_PS10taskF, 0.0, atol=0.01)
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> import numpy as np
+          >>> np.isclose(Delta_NX_PS10taskF, -0.1, atol=0.01)
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> import numpy as np
+          >>> np.isclose(Delta_epsilon_PS10taskF, -0.2, atol=0.01)
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> import numpy as np
+          >>> np.isclose(Delta_Y_PS10taskF, -1.0, atol=0.01)
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> import numpy as np
+          >>> np.isclose(Delta_C_PS10taskF, -0.5, atol=0.01)
           True
           """,
           'hidden': False,
