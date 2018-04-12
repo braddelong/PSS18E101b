@@ -1,5 +1,5 @@
 test = {
-  'name': '',
+  'name': 'Problem Set 5 q02',
   'points': 1,
   'suites': [
     {
@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_I_PS10taskE, 0, atol=0.01)
+          >>> np.isclose(Delta_r_PS10taskC, -0.03, atol=0.01)
           True
           """,
           'hidden': False,
@@ -16,7 +16,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_G_PS10taskE, 0.5, atol=0.01)
+          >>> np.isclose(Delta_I_PS10taskC, -0.20, atol=0.01)
           True
           """,
           'hidden': False,
@@ -25,7 +25,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_NX_PS10taskE, -0.125, atol=0.01)
+          >>> np.isclose(Delta_G_PS10taskC, -0.0, atol=0.01)
           True
           """,
           'hidden': False,
@@ -34,7 +34,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_epsilon_PS10taskE, 0, atol=0.01)
+          >>> np.isclose(Delta_NX_PS10taskC, +0.20, atol=0.01)
           True
           """,
           'hidden': False,
@@ -43,16 +43,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_Y_PS10taskE, +0.75, atol=0.01)
-          True
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> import numpy as np
-          >>> np.isclose(Delta_C_PS10taskE, +0.375, atol=0.01)
+          >>> np.isclose(Delta_epsilon_PS10taskC, +0.15, atol=0.01)
           True
           """,
           'hidden': False,
