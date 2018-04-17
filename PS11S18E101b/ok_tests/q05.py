@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_r_PS10taskF, +0.04, atol=0.01)
+          >>> np.isclose(pi_year1_PS11taskF, 0.04, atol=0.01)
           True
           """,
           'hidden': False,
@@ -16,7 +16,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_I_PS10taskF, -0.4, atol=0.01)
+          >>> np.isclose(pi_year2_PS11taskF, 0.06, atol=0.01)
           True
           """,
           'hidden': False,
@@ -25,7 +25,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_G_PS10taskF, 0.0, atol=0.01)
+          >>> np.isclose(pi_year3_PS11taskF, 0.08, atol=0.01)
           True
           """,
           'hidden': False,
@@ -34,7 +34,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_NX_PS10taskF, -0.1, atol=0.01)
+          >>> np.isclose(pi_year4_PS11taskF, 0.10, atol=0.01)
           True
           """,
           'hidden': False,
@@ -43,7 +43,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_epsilon_PS10taskF, -0.2, atol=0.01)
+          >>> np.isclose(pi_year5_PS11taskF, 0.12, atol=0.01)
           True
           """,
           'hidden': False,
@@ -52,7 +52,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_Y_PS10taskF, -1.0, atol=0.01)
+          >>> np.isclose(pi_year6_PS11taskF, 0.14, atol=0.01)
           True
           """,
           'hidden': False,
@@ -61,7 +61,34 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_C_PS10taskF, -0.5, atol=0.01)
+          >>> np.isclose(pi_year7_PS11taskF, 0.16, atol=0.01)
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> import numpy as np
+          >>> np.isclose(pi_year8_PS11taskF, 0.18, atol=0.01)
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> import numpy as np
+          >>> np.isclose(pi_year9_PS11taskF, 0.20, atol=0.01)
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> import numpy as np
+          >>> np.isclose(pi_year10_PS11taskF, 0.22, atol=0.01)
           True
           """,
           'hidden': False,
