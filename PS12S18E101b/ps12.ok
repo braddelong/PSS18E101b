@@ -1,8 +1,8 @@
 {
-  "name": "PS11 Notebook",
-  "endpoint": "cal/econ101b/sp18/PS11",
+  "name": "PS12 Notebook",
+  "endpoint": "cal/econ101b/sp18/PS12",
   "src": [
-    "PS11.ipynb"
+    "PS12.ipynb"
   ],
   "tests": {
       "ok_tests/q*.py": "ok_test"
