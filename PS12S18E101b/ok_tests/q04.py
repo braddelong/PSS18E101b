@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(pi_year1_PS11taskE, 0.03, atol=0.01)
+          >>> np.isclose(static_df.pi[0], 0.06, atol=0.01)
           True
           """,
           'hidden': False,
@@ -16,7 +16,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(pi_year2_PS11taskE, 0.04, atol=0.01)
+          >>> np.isclose(static_df.pi[1], 0.01, atol=0.01)
           True
           """,
           'hidden': False,
@@ -25,7 +25,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(pi_year3_PS11taskE, 0.05, atol=0.01)
+          >>> np.isclose(static_df.pi[2], 0.025, atol=0.01)
           True
           """,
           'hidden': False,
@@ -34,7 +34,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(pi_year4_PS11taskE, 0.06, atol=0.01)
+          >>> np.isclose(static_df.pi[3], 0.0175, atol=0.01)
           True
           """,
           'hidden': False,
@@ -43,7 +43,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(pi_year5_PS11taskE, 0.07, atol=0.01)
+          >>> np.isclose(static_df.pi[4], 0.02125, atol=0.01)
           True
           """,
           'hidden': False,
@@ -52,7 +52,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(pi_year6_PS11taskE, 0.08, atol=0.01)
+          >>> np.isclose(static_df.pi[5], 0.019375, atol=0.01)
           True
           """,
           'hidden': False,
@@ -61,7 +61,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(pi_year7_PS11taskE, 0.09, atol=0.01)
+          >>> np.isclose(static_df.pi[6], 0.020313, atol=0.01)
           True
           """,
           'hidden': False,
@@ -70,7 +70,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(pi_year8_PS11taskE, 0.10, atol=0.01)
+          >>> np.isclose(static_df.pi[7], 0.019844, atol=0.01)
           True
           """,
           'hidden': False,
@@ -79,7 +79,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(pi_year9_PS11taskE, 0.11, atol=0.01)
+          >>> np.isclose(static_df.pi[8], 0.020078, atol=0.01)
           True
           """,
           'hidden': False,
@@ -88,7 +88,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(pi_year10_PS11taskE, 0.12, atol=0.01)
+          >>> np.isclose(static_df.pi[9], 0.019961, atol=0.01)
           True
           """,
           'hidden': False,
