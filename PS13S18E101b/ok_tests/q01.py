@@ -61,7 +61,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_epsilon_PS12taskB, -0.2, atol=0.01)
+          >>> np.isclose(Delta_epsilon_PS12taskB, 0.2, atol=0.01)
           True
           """,
           'hidden': False,

@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_Y_PS12taskB, -1, atol=0.01)
+          >>> np.isclose(hybrid_df.pi[0], 0.06, atol=0.001)
           True
           """,
           'hidden': False,
@@ -16,7 +16,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_r_PS12taskB, 0.04, atol=0.01)
+          >>> np.isclose(hybrid_df.pi[1], 0.02, atol=0.001)
           True
           """,
           'hidden': False,
@@ -25,7 +25,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_C_PS12taskB, -0.5, atol=0.01)
+          >>> np.isclose(hybrid_df.pi[2], 0.03, atol=0.001)
           True
           """,
           'hidden': False,
@@ -34,7 +34,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_I_PS12taskB, -0.4, atol=0.01)
+          >>> np.isclose(hybrid_df.pi[3], 0.0175, atol=0.001)
           True
           """,
           'hidden': False,
@@ -43,7 +43,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_G_PS12taskB, 0, atol=0.01)
+          >>> np.isclose(hybrid_df.pi[4], 0.023125, atol=0.001)
           True
           """,
           'hidden': False,
@@ -52,7 +52,7 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_NX_PS12taskB, -0.1, atol=0.01)
+          >>> np.isclose(hybrid_df.pi[5], 0.018594, atol=0.001)
           True
           """,
           'hidden': False,
@@ -61,7 +61,34 @@ test = {
         {
           'code': r"""
           >>> import numpy as np
-          >>> np.isclose(Delta_epsilon_PS12taskB, -0.2, atol=0.01)
+          >>> np.isclose(hybrid_df.pi[6], 0.021133, atol=0.001)
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> import numpy as np
+          >>> np.isclose(hybrid_df.pi[7], 0.019364, atol=0.001)
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> import numpy as np
+          >>> np.isclose(hybrid_df.pi[8], 0.020442, atol=0.001)
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+        {
+          'code': r"""
+          >>> import numpy as np
+          >>> np.isclose(hybrid_df.pi[9], 0.019731, atol=0.001)
           True
           """,
           'hidden': False,
@@ -75,3 +102,4 @@ test = {
     }
   ]
 }
+
