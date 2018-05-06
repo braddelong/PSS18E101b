@@ -1,6 +1,6 @@
 {
   "name": "TAKEHOME Notebook",
-  "endpoint": "cal/econ101b/sp18/TAKEHOME",
+  "endpoint": "cal/econ101b/sp18/takehome",
   "src": [
     "TAKEHOME.ipynb"
   ],
